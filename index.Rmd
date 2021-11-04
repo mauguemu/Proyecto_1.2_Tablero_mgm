@@ -110,9 +110,9 @@ leaflet() %>%
   setView(-83.0292, 9.9952, 15) %>%
   
   addProviderTiles(
-    providers$CartoDB.Positron, group = "carto_DB") %>%
+    providers$CartoDB.Positron, group = "Maba base Carto_DB") %>%
   addProviderTiles(
-    providers$Esri.WorldImagery, group = "Esri") %>%
+    providers$Esri.WorldImagery, group = "Mapa base Esri") %>%
   
   addPolygons(
     data = zonas,
